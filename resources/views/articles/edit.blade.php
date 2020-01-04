@@ -28,8 +28,7 @@
                     <div class="control">
                         <textarea class="textarea" 
                             name="excerpt" 
-                            id="excerpt"> 
-                            {{ $article->excerpt }} 
+                            id="excerpt">{{ $article->excerpt }} 
                             @error('excerpt')
                                 <p class="help is-danger"> {{ $errors->first('excerpt') }} </p>
                             @enderror
